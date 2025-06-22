@@ -1,0 +1,23 @@
+# Direktori vendor
+/vendor/
+
+# Direktori cache & log
+/storage/*.key
+/storage/logs/
+bootstrap/cache/
+
+# File environment & kredensial
+.env
+.env.*
+
+# Database lokal
+*.sqlite
+*.sql
+
+# IDE / editor config
+.vscode/
+.idea/
+
+# Sistem OS
+.DS_Store
+Thumbs.db
